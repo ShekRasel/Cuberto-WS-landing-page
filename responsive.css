@@ -1,0 +1,91 @@
+@media screen and (max-width:400px){
+    #home-main{
+        line-height:12vw;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        border: 1px solid rgb(237, 240, 240);
+        padding: 15px 20px;
+        background-color: rgb(252, 252, 252);
+    }
+    #home-main .heading h1{
+        letter-spacing:-0.5px;
+        font-weight:700;
+        font-size: 16vw;
+    }
+    #home-main .heading{
+        flex-direction: column;
+        gap: 5px;
+    }
+    #home-last{
+        padding:0vw, 15vw;
+    }
+    #home-last p{
+        font-size: 14px;
+    }
+    #featured h1{
+        font-size: 8.5vw;
+        letter-spacing: -1px;
+    }
+    #scrolling{
+        width: 100%;
+        margin-top:30px;
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+    #scrolling .left{
+        width: 50%;
+    }
+    #scrolling .left .scrolling-text{
+        line-height: 5.4vw;
+        height: inherit;
+        padding: 0px 10px;
+        font-size: large;
+    }
+    #scrolling .right{
+        width: 50%;
+    }
+    #scrolling .left .scrolling-text h1{
+        font-family: sans-serif;
+        letter-spacing: -.1px;
+        font-weight: 500;
+        font-size: 3.3vw;
+    }
+    #info-section{
+        width: 90%;
+        margin-top:0px;
+        padding: 5vw 16vw;
+    }
+    #info-section h1{
+        font-size:5vw;
+        font-weight: 600;
+        padding-bottom: 40px;
+        color: rgb(11, 122, 225);
+    }
+
+    #footer-info{
+        padding: 5vw 2vw 0vw 2vw;
+    }
+    #footer-cart h2{
+        font-size: medium;
+    }
+    #last-section h1{
+        font-size: 6.4vw;
+    }
+    
+    #last-section{
+        padding:2vw 2vw;
+    }
+    #last-section .last-section-cart h3{
+        font-size: small;
+        font-weight: bold;
+    }
+    #footer{
+        height: 10vh;
+    }
+    #footer h1{
+        font-size: 6vw;
+       
+    }
+}
